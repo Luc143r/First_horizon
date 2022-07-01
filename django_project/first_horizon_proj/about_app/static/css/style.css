@@ -238,3 +238,29 @@ footer {
     grid-area: right_line;
     width: 428px;
 }
+
+.articles {
+    display: grid;
+    grid-template-areas: "article_block";
+}
+
+.article {
+    grid-area: article_block;
+    display: grid;
+    grid-template-areas: 
+    "title_article"
+    "content_article"
+    "date_article";
+}
+
+.title {
+    grid-area: title_article;
+}
+
+.content_article {
+    grid-area: content_article;
+}
+
+.creation_date {
+    grid-area: date_article;
+}
